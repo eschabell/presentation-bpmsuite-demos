@@ -1,0 +1,392 @@
+<!doctype html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+
+		<title>JBoss BPM Suite Demos</title>
+
+		<meta name="description" content="JBoss BPM Suite Demo Overview">
+		<meta name="author" content="Eric D. Schabell">
+
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<link rel="stylesheet" href="css/reveal.min.css">
+		<link rel="stylesheet" href="css/theme/blood.css" id="theme">
+
+		<!-- For syntax highlighting -->
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+
+		<!-- If the query includes 'print-pdf', include the PDF print sheet -->
+		<script>
+			if( window.location.search.match( /print-pdf/gi ) ) {
+				var link = document.createElement( 'link' );
+				link.rel = 'stylesheet';
+				link.type = 'text/css';
+				link.href = 'css/print/pdf.css';
+				document.getElementsByTagName( 'head' )[0].appendChild( link );
+			}
+		</script>
+
+		<!--[if lt IE 9]>
+		<script src="lib/js/html5shiv.js"></script>
+		<![endif]-->
+	</head>
+
+	<body>
+
+		<div class="reveal">
+
+			<!-- Any section element inside of this container is displayed as a slide -->
+			<div class="slides">
+				<section data-background="images/rh-images/rh-bg-start.jpg" data-background-size="cover" data-background-position="center bottom">
+                    <div style="width: 1056px; height: 250px;">
+                        <h2>Red Hat JBoss BPM Suite</h2>
+                        <h3>demo projects</h3>
+                    </div>
+                    <div style="width: 1056px; height: 150px; color: white;">
+                        <h4><a href="https://github.com/jbossdemocentral?utf8=%E2%9C%93&query=bpms-" style="color: red" target="_blank">JBoss Demo Central</a></h4>
+                        <h5>Updated: Dec 15, 2015</h5>
+                    </div>
+                    <div style="width: 600px; height: 300px; text-align: left;">
+                        Eric D. Schabell<br/>
+                        JBoss Technology Evangelist<br/>
+                        <a href="http://twitter.com/ericschabell" style="color: red" target="_blank">@ericschabell</a>
+                    </div>
+				</section>
+
+                <section data-background-color="white">
+                    <div style="width: 1056px; height: 150px;">
+                        <h2 style="color: dimgray">Field Collateral</h2>
+                    </div>
+                    <div style="width: 1056px; height: 150px; color: dimgray">
+                        <ol>
+                            <li><b>JBoss BPM Suite Starter kit</b></li>
+                            <li><b>JBoss BPM Suite Demos</b></li>
+                        </ol>
+                    </div>
+                    <div style="width: 956px; height: 200px; text-align: right;">
+                        <img src="images/kiss.jpg">
+                    </div>
+                </section>
+
+                <section data-background-color="white">
+                    <div style="width: 1056px; height: 200px;">
+                        <h2 style="color: dimgray;">Starter kit</h2>
+                    </div>
+                    <div style="width: 1056px; height: 150px; color: dimgray;">
+                        <h3 style="color: dimgray"><a href="http://www.schabell.org/p/jboss-bpm-suite-starter-kit.html" style="color: red" target="_blank">Red Hat Developers</a></h3>
+                        <h5 style="color: dimgray">JBoss BPM Suite product page</h5>
+                    </div>
+                    <div style="width: 1056px; height: 200px; color: white;" align="right">
+                        <a href="http://www.schabell.org/p/jboss-bpm-suite-starter-kit.htm" target="_blank"><img src="images/getstarted.png" height="100%"></a>
+                    </div>
+                </section>
+
+                <section data-background-color="white">
+                    <div style="width: 1056px; height: 200px;">
+                        <h2 style="color: dimgray;">Get products</h2>
+                    </div>
+                    <div style="width: 1056px; height: 150px; color: white;" align="left">
+                        <h3 style="color: dimgray"><a href="http://developers.redhat.com/products/bpmsuite/download" style="color: red" target="_blank">1. Red Hat Developer</a></h3>
+                        <h3 style="color: dimgray"><a href="https://access.redhat.com/jbossnetwork/restricted/listSoftware.html" style="color: red" target="_blank">2. Red Hat Customer Portal</a></h3>
+                    </div>
+                    <div style="width: 956px; height: 300px; color: white;" align="right">
+                        <img src="images/coolstuff.png">
+                    </div>
+                </section>
+
+                <section data-background-color="white">
+                    <div style="width: 1056px; height: 150px;">
+                        <h2 style="color: dimgray;">Install a demo</h2>
+                    </div>
+                    <div style="width: 1056px; height: 200px; color: dimgray;">
+                        <ol>
+                            <li>Install on your local machine</li>
+                            <ul>
+                                <li>easy install project...
+                            </ul>
+                            <li>Install with one-click on xPaaS (bpmPaas)</li>
+                            <li>Generate a containerized installation</li>
+                        </ol>
+                    </div>
+                    <div style="width: 956px; height: 150px; color: white;" align="right">
+                        <a href="https://github.com/jbossdemocentral?utf8=%E2%9C%93&query=bpms-" target="_blank"><img src="images/veryfast.jpg"></a>
+                    </div>
+                </section>
+
+                <section data-background-color="white">
+                    <div style="width: 1056px; height: 100px;">
+                        <h3 style="color: dimgray"><a href="https://github.com/jbossdemocentral/bpms-install-demo" style="color: red" target="_blank">JBoss BPM Suite Install Demo</a></h3>
+                    </div>
+                    <div style="width: 1056px; height: 270px; color: dimgray">
+                        <ul>
+                            <li>Example automated install of JBoss BPM Suite with typical standalone configuration.</li>
+                            <ul>
+                                <li>Use: <b>getting started and <a href="http://bpmworkshop-onthe.rhcloud.com" style="color: red" target="_blank">JBoss BPM online workshop</a></b></li>
+                                <li>Install: <b>local, one-click OpenShift, containerized</b></li>
+                                <li>Product versions: <b>6.0, 6.1, 6.2</b></li>
+                            </ul>
+                        </ul>
+                    </div>
+                </section>
+
+                <section data-background-color="white">
+                    <div style="width: 1056px; height: 150px;">
+                        <h3 style="color: dimgray"><a href="https://github.com/jbossdemocentral/bpms-customer-evaluation-demo" style="color: red" target="_blank">JBoss BPM</a></h3>
+                        <h3 style="color: dimgray"><a href="https://github.com/jbossdemocentral/bpms-customer-evaluation-demo" style="color: red" target="_blank">Customer Evaluation Demo</a></h3>
+                    </div>
+                    <div style="width: 1056px; height: 270px; color: dimgray">
+                        <ul>
+                            <li>Straight through process (STP) to evaluate if a give customer meets our criteria, showcasing rules integration with a business process.</li>
+                            <ul>
+                                <li>Use: <b>automated STP process, simple rule integration in BPM</b></li>
+                                <li>Install: <b>local, one-click OpenShift, containerized</b></li>
+                                <li>Product versions: <b>6.0, 6.1, 6.2</b></li>
+                            </ul>
+                        </ul>
+                    </div>
+                </section>
+
+                <section data-background-color="white">
+                    <div style="width: 1056px; height: 100px;">
+                        <h3 style="color: dimgray"><a href="https://github.com/jbossdemocentral/bpms-rewards-demo" style="color: red" target="_blank">JBoss BPM Rewards Demo</a></h3>
+                    </div>
+                    <div style="width: 1056px; height: 270px; color: dimgray">
+                        <ul>
+                            <li>Provides examples of human task integration, form designer and a custom email work item handler in a business process.</li>
+                            <ul>
+                                <li>Use: <b>user task integration, forms designer, email integration in process</b></li>
+                                <li>Install: <b>local, one-click OpenShift, containerized</b></li>
+                                <li>Product versions: <b>6.0, 6.1, 6.2</b></li>
+                            </ul>
+                        </ul>
+                    </div>
+                </section>
+
+                <section data-background-color="white">
+                    <div style="width: 1056px; height: 100px;">
+                        <h3 style="color: dimgray"><a href="https://github.com/jbossdemocentral/bpms-mortgage-demo" style="color: red" target="_blank">JBoss BPM Mortgage Demo</a></h3>
+                    </div>
+                    <div style="width: 1056px; height: 270px; color: dimgray">
+                        <ul>
+                            <li>Provides financial home loan application (mortgage) with examples of human task integration, form designer, service task, error handling, decision table, tests and validation rules.</li>
+                            <ul>
+                                <li>Use: <b>web serivce integration, error handling, rules integration, financial rules, validation rules, user tasks, etc.</b></li>
+                                <li>Install: <b>local, one-click OpenShift, containerized</b></li>
+                                <li>Product versions: <b>6.0, 6.1, 6.2</b></li>
+                            </ul>
+                        </ul>
+                    </div>
+                </section>
+
+                <section data-background-color="white">
+                    <div style="width: 1056px; height: 270px;">
+                        <h3 style="color: dimgray"><a href="https://github.com/jbossdemocentral/bpms-signavio-integration-demo" style="color: red" target="_blank">JBoss BPM Suite</a></h3>
+                        <h3 style="color: dimgray"><a href="https://github.com/jbossdemocentral/bpms-signavio-integration-demo" style="color: red" target="_blank">& </a></h3>
+                        <h3 style="color: dimgray"><a href="https://github.com/jbossdemocentral/bpms-signavio-integration-demo" style="color: red" target="_blank">Signavio Process Editor Integration Demo</a></h3>
+                    </div>
+                    <div style="width: 1056px; height: 270px; color: dimgray">
+                        <ul>
+                            <li>Provides same process for financial mortgage application, but highlights importing process designed in Signavio Process Editor into JBoss BPM Suite.</li>
+                            <ul>
+                                <li>Use: <b>importing Signavio process design, web serivce integration, error handling, rules integration, financial rules, validation rules, user tasks.</b></li>
+                                <li>Install: <b>local</b></li>
+                                <li>Product versions: <b>6.1, 6.2</b></li>
+                            </ul>
+                        </ul>
+                    </div>
+                </section>
+
+                <section data-background-color="white">
+                    <div style="width: 1056px; height: 100px;">
+                        <h3 style="color: dimgray"><a href="https://github.com/jbossdemocentral/bpms-travel-agency-demo" style="color: red" target="_blank">JBoss BPM Travel Agency Demo</a></h3>
+                    </div>
+                    <div style="width: 1056px; height: 270px; color: dimgray">
+                        <ul>
+                            <li>Online retail travel agency booking process that has validation rules, decision table, human task integration, service tasks, external service integration, credit card fraud detection, external UI integration example with RestAPI, task forms, data model and BPM compensation (rolling back service tasks).</li>
+                            <ul>
+                                <li>Use: <b>travel agencies, bpm roll-back (compensation), fraud detection, rules, human tasks, multiple web services, UI integration, RestAPI usage, advance case.</b></li>
+                                <li>Install: <b>local, one-click OpenShift, containerized</b></li>
+                                <li>Product versions: <b>6.0.3, 6.1, 6.2</b></li>
+                            </ul>
+                        </ul>
+                    </div>
+                </section>
+
+                <section data-background-color="white">
+                    <div style="width: 1056px; height: 150px;">
+                        <h3 style="color: dimgray"><a href="https://github.com/jbossdemocentral/bpms-baggage-deliver-demo" style="color: red" target="_blank">JBoss BPM</a></h3>
+                        <h3 style="color: dimgray"><a href="https://github.com/jbossdemocentral/bpms-baggage-deliver-demo" style="color: red" target="_blank">Baggage Delivery Demo</a></h3>
+                    </div>
+                    <div style="width: 1056px; height: 270px; color: dimgray">
+                        <ul>
+                            <li>Online business friendly baggage delivery process showcases forms modeler, BPM process, rules from an external spreadsheet, a decision table, use of domain specific language (DSL) and Business Activity Monitoring (BAM).</li>
+                            <ul>
+                                <li>Use: <b>rules, decision table, external spreadsheet integration</b></li>
+                                <li>Install: <b>local, one-click OpenShift, containerized</b></li>
+                                <li>Product versions: <b>6.0.3, 6.1, 6.2</b></li>
+                            </ul>
+                        </ul>
+                    </div>
+                </section>
+
+                <section data-background-color="white">
+                    <div style="width: 1056px; height: 100px;">
+                        <h3 style="color: dimgray"><a href="https://github.com/jbossdemocentral/bpms-generic-loan-demo" style="color: red" target="_blank">JBoss BPM Generic Loan Demo</a></h3>
+                    </div>
+                    <div style="width: 1056px; height: 270px; color: dimgray">
+                        <ul>
+                            <li>Online financial loan application with data model, rules for rate and eligibility calculations, human tasks, task forms and an example of signal integration into a business process.</li>
+                            <ul>
+                                <li>Use: <b>rules, financial loans, eligbility calculations, user tasks, signal integration in process.</b></li>
+                                <li>Install: <b>local, one-click OpenShift, containerized</b></li>
+                                <li>Product versions: <b>6.0, 6.1, 6.2</b></li>
+                            </ul>
+                        </ul>
+                    </div>
+                </section>
+
+                <section data-background-color="white">
+                    <div style="width: 1056px; height: 200px;">
+                        <h3 style="color: dimgray"><a href="https://github.com/jbossdemocentral/bpms-ecm-demo" style="color: red" target="_blank">JBoss BPM</a></h3>
+                        <h3 style="color: dimgray"><a href="https://github.com/jbossdemocentral/bpms-ecm-demo" style="color: red" target="_blank">Enterprise Content Management Demo</a></h3>
+                    </div>
+                    <div style="width: 1056px; height: 270px; color: dimgray">
+                        <ul>
+                            <li>Business process to activate a mobile service based on document management, runs by default with document storage on the filesystem but includes example project that leverages Content Management Integration Standard (CMIS) to connect to any supported Content Management System (CMS).</li>
+                            <ul>
+                                <li>Use: <b>telco example, mobile service activation, document integration in process, integration with external CMS through CMIS.</b></li>
+                                <li>Install: <b>local, containerized</b></li>
+                                <li>Product versions: <b>6.0.2, 6.1, 6.2</b></li>
+                            </ul>
+                        </ul>
+                    </div>
+                </section>
+
+                <section data-background-color="white">
+                    <div style="width: 1056px; height: 300px;">
+                        <h3 style="color: dimgray"><a href="https://github.com/jbossdemocentral/bpms-fuse-travel-agency-integration-demo" style="color: red" target="_blank">JBoss BPM</a></h3>
+                        <h3 style="color: dimgray"><a href="https://github.com/jbossdemocentral/bpms-fuse-travel-agency-integration-demo" style="color: red" target="_blank">&</a></h3>
+                        <h3 style="color: dimgray"><a href="https://github.com/jbossdemocentral/bpms-fuse-travel-agency-integration-demo" style="color: red" target="_blank">Fuse Travel Agency</a></h3>
+                        <h3 style="color: dimgray"><a href="https://github.com/jbossdemocentral/bpms-fuse-travel-agency-integration-demo" style="color: red" target="_blank">Integration Demo</a></h3>
+                    </div>
+                    <div style="width: 1056px; height: 270px; color: dimgray">
+                        <ul>
+                            <li>JBoss BPM Travel Agency application highlighting original standard web services migrated to JBoss Fuse microservices.</li>
+                            <ul>
+                                <li>Use: <b>same as normal travel agency demo, but features microservice migration, from 2 services to 6 in Fuse containers.</b></li>
+                                <li>Install: <b>local</b></li>
+                                <li>Product versions: <b>6.1, 6.2</b></li>
+                            </ul>
+                        </ul>
+                    </div>
+                </section>
+
+                <section data-background-color="white">
+                    <div style="width: 1056px; height: 300px;">
+                        <h3 style="color: dimgray"><a href="https://github.com/jbossdemocentral/bpms-dv-travel-agency-integration-demo" style="color: red" target="_blank">JBoss BPM</a></h3>
+                        <h3 style="color: dimgray"><a href="https://github.com/jbossdemocentral/bpms-dv-travel-agency-integration-demo" style="color: red" target="_blank">&</a></h3>
+                        <h3 style="color: dimgray"><a href="https://github.com/jbossdemocentral/bpms-dv-travel-agency-integration-demo" style="color: red" target="_blank">DataVirt Travel Agency</a></h3>
+                        <h3 style="color: dimgray"><a href="https://github.com/jbossdemocentral/bpms-dv-travel-agency-integration-demo" style="color: red" target="_blank">Integration Demo</a></h3>
+                    </div>
+                    <div style="width: 1056px; height: 270px; color: dimgray">
+                        <ul>
+                            <li>JBoss BPM Travel Agency migrated to disparate data sources after acquisition requiring integration through JBoss Data Virtualization. Ties toegether original data model to new data sources with JBDC connections.</li>
+                            <ul>
+                                <li>Use: <b>same as normal travel agency, but features acquisition story, integration of multiple data sources without changes to project or re-deploying apps.</b></li>
+                                <li>Install: <b>local, containerized</b></li>
+                                <li>Product versions: <b>6.1, 6.2</b></li>
+                            </ul>
+                        </ul>
+                    </div>
+                </section>
+
+                <section data-background-color="white">
+                    <div style="width: 1056px; height: 230px;">
+                        <h3 style="color: dimgray"><a href="https://github.com/jbossdemocentral/brms-fuse-integration-demo" style="color: red" target="_blank">JBoss BPM</a></h3>
+                        <h3 style="color: dimgray"><a href="https://github.com/jbossdemocentral/brms-fuse-integration-demo" style="color: red" target="_blank">&</a></h3>
+                        <h3 style="color: dimgray"><a href="https://github.com/jbossdemocentral/brms-fuse-integration-demo" style="color: red" target="_blank">Fuse Integration Demo</a></h3>
+                    </div>
+                    <div style="width: 1056px; height: 270px; color: dimgray">
+                        <ul>
+                            <li>Project showcases starting a business process from a Camel route.</li>
+                            <ul>
+                                <li>Use: <b>features starting processes from a camel route (Fuse integration route)</b></li>
+                                <li>Install: <b>local, containerized</b></li>
+                                <li>Product versions: <b>5.3.1, 6.0, 6.1, 6.2</b></li>
+                            </ul>
+                        </ul>
+                    </div>
+                </section>
+
+                <section data-background-color="white">
+                    <div style="width: 1056px; height: 200px; color: white;">
+                        <h1 style="color: dimgray">Reference</h1>
+                    </div>
+                    <div style="width: 1056px; height: 150px; color: dimgray;">
+                        <ul>
+                            <li><a href="http://www.schabell.org/p/jboss-bpm-suite-starter-kit.html" target="_blank" style="color: red">JBoss BPM Starter Kit</a></li>
+                            <li><a href="http://bpmworkshop-onthe.rhcloud.com" target="_blank" style="color: red">JBoss BPM Suite online workshops</a></li>
+                            <li><a href="http://schabell.org" style="color: red" target="_blank">JBoss Rules, Events & Process resources</a></li>
+                        </ul>
+                    </div>
+                    <div style="width: 956px; height: 250px; color: white;" align="right">
+                        <img src="images/impossible-until-done.png" height="100%">
+                    </div>
+                </section>
+
+                <section data-background="images/rh-images/rh-bg-start.jpg" data-background-size="cover" data-background-position="center bottom">
+                    <div style="width: 1056px; height: 150px;">
+                    </div>
+                    <div style="width: 1056px; height: 350px; color: white;">
+                        <h1>Questions?</h2>
+                    </div>
+                    <div style="width: 600px; height: 300px; text-align: left;">
+                        Eric D. Schabell<br/>
+                        JBoss Technology Evangelist<br/>
+                        <a href="http://twitter.com/ericschabell" style="color: red" target="_blank">@ericschabell</a>
+                    </div>
+                </section>
+            </div>
+
+		</div>
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.min.js"></script>
+
+		<script>
+
+			// Full list of configuration options available here:
+			// https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				controls: true,
+				progress: true,
+				history: true,
+				center: true,
+
+				theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
+				transition: Reveal.getQueryHash().transition || 'default', // default/cube/page/concave/zoom/linear/fade/none
+
+				// Parallax scrolling
+				// parallaxBackgroundImage: 'https://s3.amazonaws.com/hakim-static/reveal-js/reveal-parallax-1.jpg',
+				// parallaxBackgroundSize: '2100px 900px',
+
+				// Optional libraries used to extend on reveal.js
+				dependencies: [
+					{ src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+					{ src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+					{ src: 'plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
+					{ src: 'plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }
+				]
+			});
+
+		</script>
+
+	</body>
+</html>
